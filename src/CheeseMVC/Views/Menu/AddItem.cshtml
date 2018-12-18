@@ -1,4 +1,5 @@
 ﻿@model CheeseMVC.ViewModels.AddMenuItemViewModel
+
 @{
     ViewBag.Title = "Add Item to Menu: " + Model.Menu.Name;
 }
@@ -10,7 +11,7 @@
         <span asp-validation-for="CheeseID"></span>
      </div>   
 
-        <input type="hidden" name="MenuID" value="@Model.Menu.ID" />
+     <input type="hidden" name="MenuID" value="@Model.Menu.ID" />
 
-        <input type="submit" value="Add Item" />    
+     <input type="submit" value="Add Item" />    
 </form>

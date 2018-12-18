@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
-using CheeseMVC.Models;
+﻿using CheeseMVC.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Collections.Generic;
 
 namespace CheeseMVC.ViewModels
 {
@@ -29,7 +29,6 @@ namespace CheeseMVC.ViewModels
             }
 
             Menu = menu;
-
         }
 
     }
